@@ -1,0 +1,12 @@
+class_name: AcceptanceTester
+modules:
+   enabled:
+      - WebDriver:
+         url: 'https://duckduckgo.com/'
+         protocol: 'https'
+         host: '%BROWSERS_USERNAME%:%BROWSERS_PASSWORD%@browsers.aerokube.com'
+         port: 4444
+         browser: chrome
+         capabilities:
+          browserName: 'chrome'
+          version: '75.0'
