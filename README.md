@@ -1,4 +1,4 @@
-# Aerokube Browsers Codeception Example
+# Moon Cloud Codeception Example
 
 1) Install dependencies:
 ```
